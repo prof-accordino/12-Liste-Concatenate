@@ -6,16 +6,20 @@ public class MainClass
 	
 	public static void main(String[] args)
 	{
-		//esempiLista();
+		System.out.println("1 - Testa ADT Lista");
+		System.out.println("2 - Testa ADT Pila");
+		System.out.println("3 - Testa ADT Coda");
 		
-		//esempiCoda();
-		
+		esempiLista();		
+		esempiCoda();		
 		esempiPila();
-	}	
-	
+	}
 	
 	public static void esempiLista()
 	{
+	 /* Togliere il commento a questo codice	 
+	  * dopo aver implementato il codice di Lista_Stringa.java
+		
 		// aggiungo elementi
 		lista_semplice.add("Questa ");
 		lista_semplice.add("è ");
@@ -44,11 +48,17 @@ public class MainClass
 		// Stampo tutta la lista
 		lista_semplice.clear();
 		System.out.println(lista_semplice.size()); // stamperà 0
-		lista_semplice.stampaTutto(); // non stampa più niente
+		lista_semplice.stampaTutto(); // non stampa più niente		
+	*/
+		
 	}
 	
+
 	public static void esempiCoda()
 	{
+	/* Togliere il commento a questo codice 
+	 * dopo aver implementato il codice di Coda_Stringa.java
+		  
 		// Mettiamo in coda qualche elemento
 		coda.enqueue("numero 1");
 		coda.enqueue("numero 2");
@@ -75,11 +85,14 @@ public class MainClass
 		coda.enqueue("numero 6");
 
 		System.out.println("Serviamo il ");
-		System.out.println(coda.dequeue());		
+		System.out.println(coda.dequeue());	
+	*/	
 	}
 	
 	public static void esempiPila()
 	{
+	/* Togliere il commento a questo codice 
+	 * dopo aver implementato il codice di Pila_Stringa.java
 		// Impiliamo qualche elemento
 		pila.push("numero 1");
 		pila.push("numero 2");
@@ -107,5 +120,6 @@ public class MainClass
 
 		System.out.println("Serviamo il ");
 		System.out.println(pila.pop());	
+	*/
 	}
 }
